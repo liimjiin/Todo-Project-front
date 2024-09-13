@@ -1,0 +1,50 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px; /* 항목 간 간격 */
+}
+
+.checkbox_col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox_col input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox_col input[type="checkbox"]:checked {
+  background-color: orange;
+  border-color: orange;
+}
+
+
+input[type="text"] {
+  width: 300px;
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn_col button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #807a7a;
+  cursor: pointer;
+  padding: 5px;
+}
