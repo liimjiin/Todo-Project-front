@@ -6,7 +6,8 @@ const TodoEditor = () => {
 
   // 폼 제출 시 호출되는 함수
   const handleSubmit = (e) => {
-    e.preventDefault(); // 페이지 새로고침 방지
+    // 페이지 새로고침이 일어나도록 preventDefault를 제거
+    // e.preventDefault(); // 삭제
 
     // 빈 값일 경우 처리하지 않음
     if (content.trim() === "") {

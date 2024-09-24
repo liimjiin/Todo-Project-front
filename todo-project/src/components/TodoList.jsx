@@ -35,7 +35,7 @@ const TodoList = () => {
 
   return (
     <div className="TodoList">
-      <h4>Todo List</h4>
+      <h4>------------------- Todo List -------------------</h4>
       {error && <p className="error-message">{error}</p>}
       {todos.length > 0 ? (
         todos.map((todo) => <TodoItem key={todo.number} todo={todo} onDelete={handleDelete} />)
